@@ -3,8 +3,8 @@
 #include <memory.h>
 
 /*
-   calloc 함수의 원형
-   void* calloc(size_t elt_count, size_t elt_size);
+   memset 함수의 원형
+   void* memset(void* dest, int c, size_t count);
 */
 
 int main() {
