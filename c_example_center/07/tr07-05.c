@@ -12,6 +12,7 @@ int main() {
 	pi = &i;
 	pj = &j;
 
+	printf("original : i = %d j = %d\n\n", i, j);
 	swap1(i, j);
 	printf("main : i = %d j = %d\n\n", i, j);
 
@@ -34,5 +35,5 @@ void swap2(int *i, int *j) {
 	temp = *i;
 	*i = *j;
 	*j = temp;
-	printf("call swap2 : i = %d j = %d\n", i, j);
+	printf("call swap2 : i = %d j = %d\n", *i, *j);
 }
