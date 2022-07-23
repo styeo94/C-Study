@@ -6,3 +6,7 @@
 vim --version
 sudo apt update && sudo apt install vim-gtk -y
 ```
+* 파일 실행할 때마다 붙이는 ./ 를 Path에 넣기
+```
+export PATH=$PATH:./
+```
